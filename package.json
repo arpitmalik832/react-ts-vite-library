@@ -123,7 +123,7 @@
     "version-bump:patch:rc": "npx release-it patch prerelease --preRelease=rc"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.25.8",
+    "@babel/eslint-parser": "^7.25.9",
     "@babel/generator": "^7.25.7",
     "@babel/parser": "^7.25.8",
     "@babel/preset-env": "^7.25.8",
