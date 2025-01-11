@@ -78,7 +78,7 @@ const config = {
   // testEnvironment:'node',
   // testMatch: // [array<string>]
   // testPathIgnorePatterns: // [array<string>]
-  testRegex: '/__tests__/[a-zA-Z0-9_]*.(test|spec).tsx?$',
+  testRegex: '/__tests__/[a-zA-Z0-9_/]*.(test|spec).tsx?$',
   // testResultsProcessor: // [string]
   // testRunner: // [string]
   // timers: // [string]
