@@ -6,7 +6,7 @@ import { copyToClipboard } from '../../utils/commonUtils';
 import { errorLog, log } from '../../utils/logsUtils';
 import type { IconProps, SVGComponent } from './types';
 
-import s from './index.scss';
+import s from './index.module.scss';
 
 const Icon = (props: IconProps) => {
   const { name } = props;
