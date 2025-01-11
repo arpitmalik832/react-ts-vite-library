@@ -16,11 +16,11 @@ const config = () =>
     targets: [
       {
         src: 'static/styles/*',
-        dest: 'dist/styles',
+        dest: 'dist',
       },
       {
         src: 'src/styles/mixins/*',
-        dest: 'dist/styles/mixins',
+        dest: 'dist',
       },
       {
         src: 'static/enums/icons_list.mjs',
@@ -32,6 +32,8 @@ const config = () =>
       },
     ],
     hook: 'writeBundle',
+    verbose: true, // Add this to see more details about the copy operation
+    flatten: false, // Add this to preserve directory structure
   });
 
 export default config;

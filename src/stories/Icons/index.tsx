@@ -4,9 +4,9 @@ import iconsList from '../../../static/enums/icons_list';
 import { capitalizeFirstChar } from '../../utils/stringUtils';
 import { copyToClipboard } from '../../utils/commonUtils';
 import { errorLog, log } from '../../utils/logsUtils';
-import { IconProps } from '../../types/types.d';
+import type { IconProps, SVGComponent } from './types';
 
-import s from './index.module.scss';
+import s from './index.scss';
 
 const Icon = (props: IconProps) => {
   const { name } = props;

@@ -1,9 +1,9 @@
 import tokens from '../../../static/enums/design_tokens.json';
-import { TypographyScaleObject } from '../../types/types.d';
+import type { TypographyScaleObject } from './types';
 import classnames from '../../utils/classNames';
 import { capitalizeFirstChar } from '../../utils/stringUtils';
 
-import s from './index.module.scss';
+import s from './index.scss';
 
 const Typography = () => {
   const getStyleObject = (
